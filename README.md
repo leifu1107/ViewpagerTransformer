@@ -11,7 +11,7 @@
 ---------
 
 #### Step 1.添加依赖<br>
->>项目的 build.gradle 添加
+项目的 build.gradle 添加
 ```java
 	allprojects {
 		repositories {
@@ -20,7 +20,7 @@
 		}
 	}
   ```
-  >>/app/build.gradle
+ /app/build.gradle
   ```java
   	dependencies {
 	        compile 'com.github.leifu1107:ViewpagerTransformer:V1.0'
