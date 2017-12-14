@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="leifu.viewpagertransformer.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="一屏显示多个子页面"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:id="@+id/ll_Multiple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:clipChildren="false">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/banner_main_Multiple"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:clipChildren="false"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="画廊展示效果"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:clipChildren="false">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/banner_main_ZoomOut"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:clipChildren="false"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="渐变"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/banner_main_alpha"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="旋转"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/banner_main_rotate"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="立方体"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/banner_main_cube"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="折叠样式"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/banner_main_accordion"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="急速翻转"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/banner_main_flip"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="前背景和后背景渐变,后背景有个放大缩小效果"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/banner_main_depth"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="前背景和后背景渐变"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/banner_main_fade"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="前背景和后背景缩放并渐变"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/banner_main_zoomFade"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="前背景和后背景直接缩放"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/banner_main_zoomCenter"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="左右滑动缩放"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/banner_main_zoom"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"/>
+    </LinearLayout>
+</ScrollView>
