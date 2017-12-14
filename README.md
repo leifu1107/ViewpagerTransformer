@@ -6,7 +6,8 @@
 ![](https://github.com/leifu1107/ViewpagerTransformer/raw/master/art/3.gif) 
 ![](https://github.com/leifu1107/ViewpagerTransformer/raw/master/art/4.gif) 
 ![](https://github.com/leifu1107/ViewpagerTransformer/raw/master/art/5.gif) 
-##使用步骤
+---------
+## 使用步骤
 ---------
 
 #### Step 1.添加依赖<br>
