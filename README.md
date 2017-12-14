@@ -28,10 +28,16 @@
 ```
 ## 自定义的ViewpagerTransformer说明
 |动画|类	
-|---|---|---|	
+|---|---|	
 |基类| BasePageTransformer	
-|基类| BasePageTransformer	
-|基类| BasePageTransformer
-表头  | 表头  
-  ————- | ————-  
- 单元格内容  | 单元格内容  
+|渐变| AlphaPageTransformer	
+|旋转| RotatePageTransformer
+|立方体| CubePageTransformer	
+|可折叠的| AccordionPageTransformer	
+|急速| FlipPageTransformer
+|前背景和后背景渐变,后背景有个放大缩小效果| DepthPageTransformer	
+|前背景和后背景渐变| ZoomFadePageTransformer	
+|前背景和后背景直接缩放| ZoomCenterPageTransformer
+|左右滑动缩放| ZoomPageTransformer
+|画廊展示效果| ZoomOutPagerTransformer
+ 
