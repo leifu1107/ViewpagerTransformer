@@ -26,3 +26,12 @@
 	        compile 'com.github.leifu1107:ViewpagerTransformer:V1.0'
 	}
 ```
+## 自定义的ViewpagerTransformer说明
+|动画|类	
+|---|---|---|	
+|基类| BasePageTransformer	
+|基类| BasePageTransformer	
+|基类| BasePageTransformer
+表头  | 表头  
+  ————- | ————-  
+ 单元格内容  | 单元格内容  
