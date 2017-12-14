@@ -51,9 +51,9 @@
 ```
 #### Step 3.在Activity中直接调用setPageTransformer方法即可(一屏显示多个子页面\画廊效果不适合,还需要增加代码)<br>
 ```java	    
-	    //立方体
-  banner_main_cube.setPageTransformer(false, new CubePageTransformer());
-  banner_main_cube.setAdapter(new ViewPagerAdpter(getData()));
+  //立方体效果
+  banner_main_cube.setPageTransformer(false, new CubePageTransformer());//也可自定义动画范围大小new CubePageTransformer(90f)
+  banner_main_cube.setAdapter(new ViewPagerAdpter(getData()));
 ```
 #### Step 4.一屏显示多个子页面和画廊效果需要额外配置<br>
 
