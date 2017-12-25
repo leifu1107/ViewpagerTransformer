@@ -96,4 +96,8 @@ Activity中代码(setPageMargin设置负值边距才能调整合适)
             }
         });
 ```
- 
+ ## APK文件
+
+扫描二维码 或者 点击二维码 下载
+
+[![ViewpagerTransformer](https://github.com/leifu1107/ViewpagerTransformer/raw/master/art/zrcode.png)](https://github.com/leifu1107/ViewpagerTransformer/raw/master/art/app-release.apk)
